@@ -60,7 +60,7 @@ const Forecast = () => {
                     />
                     Celcius
                 </label>
-                <button className={classes.Button} type="submit">Get Forecast</button>
+                <button className={classes.Button} type="submit">Forecast</button>
             </form>
             <Conditions
                 responseObj={responseObj}
