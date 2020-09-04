@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Forecast from "./components/forecast/forecast";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1>Strive Weather App</h1>
       </header>
       <main>
-        {/* add weather fetching component */}
+        <Forecast />
       </main>
       <footer>
         Strive School
